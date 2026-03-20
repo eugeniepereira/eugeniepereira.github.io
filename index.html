@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eugénie Pereira Couttolenc</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+body {
+    font-family: 'Inter', sans-serif;
+    margin:0;
+    line-height:1.7;
+    color:#2c2c2c;
+    background:#fafafa;
+}
+
+/* HEADER */
+header {
+    padding:80px 20px;
+    text-align:center;
+    background:linear-gradient(135deg,#4c4699,#6b63c7);
+    color:white;
+}
+
+h1 {
+    font-family:'Playfair Display', serif;
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+header p {
+    color:#f0ebff;
+    font-size:16px;
+}
+
+/* NAV */
+nav {
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:20px;
+    background:#ffffff;
+    border-bottom:1px solid #eee;
+    position:sticky;
+    top:0;
+}
+
+nav a {
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+}
+
+nav a:hover {
+    color:#7a5af8;
+}
+
+/* SECTIONS */
+section {
+    max-width:900px;
+    margin:60px auto;
+    padding:0 20px;
+}
+
+h2 {
+    font-family:'Playfair Display', serif;
+    font-size:28px;
+    margin-bottom:20px;
+    color:#3b2f63;
+}
+
+h3 {
+    margin-top:25px;
+    color:#444;
+}
+
+/* BLOCS */
+.two-columns {
+    display:flex;
+    gap:30px;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+.box {
+    flex:1;
+    padding:25px;
+    border-radius:14px;
+    background:#ffffff;
+    box-shadow:0 10px 25px rgba(76,70,153,0.08);
+    transition:0.3s;
+    border-left:4px solid #6b63c7;
+}
+
+.box:hover {
+    transform:translateY(-5px);
+}
+
+/* BUTTON */
+a.button {
+    display:inline-block;
+    margin-top:10px;
+    text-decoration:none;
+    color:#5a4fb2;
+    font-weight:500;
+}
+
+/* CONTACT */
+.contact a {
+    display:block;
+    margin:10px 0;
+    text-decoration:none;
+    color:#333;
+}
+
+.contact a:hover {
+    color:#7a5af8;
+}
+
+/* FOOTER */
+footer {
+    text-align:center;
+    padding:40px;
+    background:#ffffff;
+    margin-top:60px;
+    color:#777;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Eugénie Pereira Couttolenc</h1>
+<p>Chercheure en sciences du langage & coordinatrice pédagogique FLE<br>Université de Genève</p>
+</header>
+
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#apropos">À propos</a>
+<a href="#recherche">Recherche</a>
+<a href="#fle">Pédagogie FLE</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="accueil">
+<h2>Présentation</h2>
+<p>Je suis chercheure en sciences du langage et enseignante de français langue étrangère à l’Université de Genève, où j’assure également la coordination pédagogique de cours intensifs.</p>
+<p>Mes travaux portent sur les imaginaires du voyage, les discours numériques et les pratiques de médiation linguistique et pédagogique.</p>
+
+<div class="two-columns">
+<div class="box">
+<h3>🎓 Recherche</h3>
+<p>Publications, communications et projets de recherche autour de l’analyse du discours et des imaginaires touristiques.</p>
+<a class="button" href="#recherche">Explorer →</a>
+</div>
+
+<div class="box">
+<h3>🌱 Pédagogie FLE</h3>
+<p>Ressources pédagogiques et pratiques de classe pour des publics universitaires allophones.</p>
+<a class="button" href="#fle">Explorer →</a>
+</div>
+</div>
+</section>
+
+<section id="apropos">
+<h2>À propos</h2>
+<p>Je suis chercheure en sciences du langage et enseignante de français langue étrangère à l’Université de Genève.</p>
+<p>Mes travaux portent sur les imaginaires du voyage et les discours numériques.</p>
+<p>J’enseigne à des publics universitaires internationaux et coordonne des cours intensifs à la Maison des Langues.</p>
+</section>
+
+<section id="recherche">
+<h2>Recherche</h2>
+<p>Mes travaux s’inscrivent dans l’analyse du discours appliquée aux imaginaires du voyage et aux discours numériques.</p>
+
+<h3>Ouvrage</h3>
+<p><i>Suivez-moi !</i> — en cours de publication chez L’Harmattan.</p>
+
+<h3>Projets</h3>
+<p>Représentations genrées dans les discours du voyage en solo.</p>
+</section>
+
+<section id="fle">
+<h2>Pédagogie FLE</h2>
+<p>J’enseigne à des publics universitaires et migrants et suis examinatrice DELF/DALF.</p>
+
+<h3>Ressources pédagogiques</h3>
+<a class="button" href="#">Accéder aux ressources →</a>
+
+<h3>Pratiques de classe</h3>
+<p>Exemples de séquences et dispositifs pédagogiques.</p>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact</h2>
+<a href="mailto:epereiracouttolenc@gmail.com">📧 Email</a>
+<a href="https://www.linkedin.com/in/eugeniepereiracouttolenc" target="_blank">🔗 LinkedIn</a>
+</section>
+
+<footer>
+<p>© Eugénie Pereira Couttolenc</p>
+</footer>
+
+</body>
+</html>
